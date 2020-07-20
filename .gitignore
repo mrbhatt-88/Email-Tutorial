@@ -1,0 +1,12 @@
+
+# Ignore bin Directory
+bin/
+
+# Ignore .settings Directory
+.settings/
+
+# Ignore .classpath file
+.classpath
+
+# Ignore .class file
+*.class
