@@ -21,11 +21,14 @@ public class ReadMail {
 
 	public static void main(String[] args) throws Exception {
 
-		System.out.println(unReadEmailData());
+		String email = "Your Email...";
+		String password = "Your Password..."
+		
+		System.out.println(unReadEmailData(email , password));
 
 	}
 
-	public static Object unReadEmailData() throws Exception {
+	public static Object unReadEmailData(String email , String password) throws Exception {
 
 		List<Map<String, Object>> list = new ArrayList<Map<String, Object>>();
 		Properties props = System.getProperties();
@@ -34,7 +37,7 @@ public class ReadMail {
 		Session session = Session.getDefaultInstance(props, null);
 		Store store = session.getStore("imaps");
 
-		store.connect("imap.gmail.com", "darshanbhatt19990@gmail.com", "Darshan@#@123");
+		store.connect("imap.gmail.com", "email", "password");
 		inbox = store.getFolder("INBOX");
 
 		inbox.open(Folder.READ_ONLY);
