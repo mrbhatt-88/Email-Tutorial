@@ -28,7 +28,7 @@
 
 
 ## [Read-Mail](https://github.com/mrbhatt-88/Email-Tutorial/blob/master/src/ReadMail.java) : 
-1.   Requrinment Data for Send mail
+1.   Requrinment Data for Read mail
      * FROM email id and it's password. (With Above Setting)
      * TO email id
      * Availability of UnRead mail In your INBOX folder.
@@ -40,7 +40,7 @@
 
 
 ## [Fetch-Attachment from Unread-Mail](https://github.com/mrbhatt-88/Email-Tutorial/blob/master/src/FetchMailAttachment.java) :
-1. Requrinment Data for Send mail
+1. Requrinment Data for Fetch Attachment in the mail
      * FROM email id and it's password. (With Above Setting)
      * TO email id
      * Availability of UnRead mail In your INBOX folder.
@@ -56,7 +56,7 @@
 
 
 ## [Check Email-Exist or not using ThirdParty API](https://github.com/mrbhatt-88/Email-Tutorial/blob/master/src/ExistenceOfMail.java)
-1. Requrinment Data for Send mail
+1. Requrinment Data for Check Email-Exist mail
     * API key of ThirdParty API.
     * API key Get from here : [Here](https://mailboxlayer.com/)
     * Any mail Account.
